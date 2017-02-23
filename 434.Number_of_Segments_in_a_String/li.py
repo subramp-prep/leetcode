@@ -16,6 +16,12 @@ class Solution(object):
             res += (s[i] == ' ') ^ (s[i + 1] == ' ')
         return res / 2 + 1 if s else 0
 
+    def countSegments2(self, s):
+        res = 0
+        for i in range(len(s)):
+            res += (i == 0 or s[i - 1] == ' ') and s[i] != ' '
+        return res
+
 ############ test case ###########
 s = Solution()
 print s.countSegments("h i")
