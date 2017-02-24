@@ -7,37 +7,30 @@
 # Definition for a binary tree node.
 class TreeNode(object):
 
-  def __init__(self, x):
-    self.val = x
-    self.left = None
-    self.right = None
-
-from collections import Counter
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
 
 
 class Solution(object):
 
-  def findFrequentTreeSum(self, root):
-    """
-    :type root: TreeNode
-    :rtype: List[int]
-    """
-    # import collections
-    # ctr = collections.Counter()
-    ctr = Counter()
-    if root == None:
-      return []
-    self.countSubtreeSum(root, ctr)
-    return [i for i in ctr.keys() if ctr[i] == max(ctr.values())]
+    def findFrequentTreeSum(self, root):
+        if root == None:
+            return []
 
-  def countSubtreeSum(self, root, ctr):
-    if root == None:
-      return 0
-    else:
-      val = self.countSubtreeSum(root.left, ctr) + \
-          self.countSubtreeSum(root.right, ctr) + root.val
-      ctr[val] += 1
-      return val
+        def getSum(node):
+            if node == None:
+                return 0
+            s = node.val + getSum(node.left) + getSum(node.right)
+            c[s] += 1
+            return s
+
+        from collections import Counter
+        c = Counter()
+        getSum(root)
+        frequent = max(c.values())  # calculate this line fisrtly
+        return [s for s in c.keys() if c[s] == frequent]
 
 
 s = Solution()
