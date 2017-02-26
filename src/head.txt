@@ -1,6 +1,8 @@
 LeetCode
 =======
-![](Author-Han.svg) ![](Contributor-Yin.svg) ![](language.svg)
+![](https://img.shields.io/badge/Author-Han-brightgreen.svg)
+![](https://img.shields.io/badge/Contributor-Yin-brightgreen.svg)
+![](https://img.shields.io/badge/Language-%20Python/C++/Java%20-blue.svg)
 
 ###To contributor:
 1. 题目的commit，请标清Add或者Upddate，例如: Add Q1. Two Sum.
@@ -14,9 +16,7 @@ solution前缀答案来自top solution。AC前缀的答案转载自[illuz](iillu
 1. 你可以在上方选择Fork，复制项目到自己空间，但请注明出处。
 2. 也可以选在Star点赞，能帮助更多和我们一样的人聚集在一起。
 3. 我们也欢迎你加入我所在的微信群，每日一题小组。
-4. 如果你做一道题，觉得我们的代码很好，欢迎给我们的贡献者打赏。你的反馈，是我们最大的动力。
-
-欢迎打赏和[提问](helloworld11010111@gmail.com)
+4. 你的反馈，是我们最大的动力。如果你做一道题，觉得我们的代码很好，欢迎打赏和[提问](helloworld11010111@gmail.com)。
 ![](src/dashang.jpeg)
 
 
