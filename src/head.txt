@@ -1,5 +1,7 @@
 LeetCode
 =======
+![](Author-Han.svg) ![](Contributor-Yin.svg) ![](language.svg)
+
 ###To contributor:
 1. 题目的commit，请标清Add或者Upddate，例如: Add Q1. Two Sum.
 以方便在git history中回看查找最近做的题。
@@ -15,7 +17,7 @@ solution前缀答案来自top solution。AC前缀的答案转载自[illuz](iillu
 4. 如果你做一道题，觉得我们的代码很好，欢迎给我们的贡献者打赏。你的反馈，是我们最大的动力。
 
 欢迎打赏和[提问](helloworld11010111@gmail.com)
-![](dashang.jpeg)
+![](src/dashang.jpeg)
 
 
 | No.| Problem | Han | Yin | Note |
