@@ -1,9 +1,20 @@
 LeetCode
-========
-请在题目对应文件夹下提交解答, 开头使用作者名字。例如：yin.cpp，li.py
+=======
+###To contributor:
+1. 题目的commit，请标清Add或者Upddate，例如: Add Q1. Two Sum.
+以方便在git history中回看查找最近做的题。
+2. 请使用个人标示进行，作为文件命名前缀，例如: li.py。
+solution前缀答案来自top solution。AC前缀的答案转载自[illuz](iilluzen@gmail.com)所贡献。在此鸣谢。
+3. 请在提交的每一份代码中，适当标注作者，复杂度和代码思路解释。以便于别人交流学习。
+每道问题下面的README，只作为提纲挈领，可以加入对文件的引用的代码。例如：```[动态规划](yin.cpp)```
 
-请在解答内，写清思路，添加必要的注释，以便自己和他人回看。
-建议写清作者，方便引用。
+###To User:
+1. 你可以在上方选择Fork，复制项目到自己空间，但请注明出处。
+2. 也可以选在Star点赞，能帮助更多和我们一样的人聚集在一起。
+3. 我们也欢迎你加入我所在的微信群，每日一题小组。
+4. 如果你做一道题，觉得我们的代码很好，欢迎给我们的贡献者打赏。你的反馈，是我们最大的动力。
+![](dashang.jpeg) 欢迎打赏和[提问](helloworld11010111@gmail.com)
+
 
 | No.| Problem | Han | Yin | Note |
 |----|---------|-----|-----|------|
@@ -38,7 +49,7 @@ LeetCode
 | 029 | [Divide_Two_Integers](029.Divide_Two_Integers) |  ![](yet.png) | ![](yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./029.Divide_Two_Integers)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 030 | [Substring_with_Concatenation_of_All_Words](030.Substring_with_Concatenation_of_All_Words) |  ![](yet.png) | ![](yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./030.Substring_with_Concatenation_of_All_Words)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 031 | [Next_Permutation](031.Next_Permutation) |  ![](yet.png) | ![](yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./031.Next_Permutation)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
-| 032 | [Longest_Valid_Parentheses](032.Longest_Valid_Parentheses) |  ![](yet.png) | ![](yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./032.Longest_Valid_Parentheses)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| 032 | [Longest_Valid_Parentheses](032.Longest_Valid_Parentheses) |  ![](done.png) | ![](done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./032.Longest_Valid_Parentheses)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 033 | [Search_in_Rotated_Sorted_Array](033.Search_in_Rotated_Sorted_Array) |  ![](yet.png) | ![](yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./033.Search_in_Rotated_Sorted_Array)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 034 | [Search_for_a_Range](034.Search_for_a_Range) |  ![](yet.png) | ![](yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./034.Search_for_a_Range)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 035 | [Search_Insert_Position](035.Search_Insert_Position) |  ![](yet.png) | ![](yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./035.Search_Insert_Position)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
@@ -49,7 +60,7 @@ LeetCode
 | 040 | [Combination_Sum_II](040.Combination_Sum_II) |  ![](yet.png) | ![](yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./040.Combination_Sum_II)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 041 | [First_Missing_Positive](041.First_Missing_Positive) |  ![](yet.png) | ![](yet.png) | &nbsp;Coming soon |
 | 042 | [Trapping_Rain_Water](042.Trapping_Rain_Water) |  ![](done.png) | ![](yet.png) | &nbsp;Coming soon |
-| 043 | [Multiply_Strings](043.Multiply_Strings) |  ![](yet.png) | ![](yet.png) | &nbsp;Coming soon |
+| 043 | [Multiply_Strings](043.Multiply_Strings) |  ![](done.png) | ![](done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./043.Multiply_Strings)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 044 | [Wildcard_Matching](044.Wildcard_Matching) |  ![](yet.png) | ![](yet.png) | &nbsp;Coming soon |
 | 045 | [Jump_Game_II](045.Jump_Game_II) |  ![](yet.png) | ![](yet.png) | &nbsp;Coming soon |
 | 046 | [Permutations](046.Permutations) |  ![](yet.png) | ![](yet.png) | &nbsp;Coming soon |
@@ -97,7 +108,7 @@ LeetCode
 | 088 | [Merge_Sorted_Array](088.Merge_Sorted_Array) |  ![](yet.png) | ![](yet.png) | &nbsp;Coming soon |
 | 089 | [Gray_Code](089.Gray_Code) |  ![](yet.png) | ![](yet.png) | &nbsp;Coming soon |
 | 090 | [Subsets_II](090.Subsets_II) |  ![](yet.png) | ![](yet.png) | &nbsp;Coming soon |
-| 091 | [Decode_Ways](091.Decode_Ways) |  ![](yet.png) | ![](yet.png) | &nbsp;Coming soon |
+| 091 | [Decode_Ways](091.Decode_Ways) |  ![](done.png) | ![](done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./091.Decode_Ways)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 092 | [Reverse_Linked_List_II](092.Reverse_Linked_List_II) |  ![](yet.png) | ![](yet.png) | &nbsp;Coming soon |
 | 093 | [Restore_IP_Addresses](093.Restore_IP_Addresses) |  ![](yet.png) | ![](yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./093.Restore_IP_Addresses)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 094 | [Binary_Tree_Inorder_Traversal](094.Binary_Tree_Inorder_Traversal) |  ![](yet.png) | ![](yet.png) | &nbsp;Coming soon |
@@ -153,7 +164,7 @@ LeetCode
 | 147 | [Insertion_Sort_List](147.Insertion_Sort_List) |  ![](done.png) | ![](done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./147.Insertion_Sort_List)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 148 | [Sort_List](148.Sort_List) |  ![](done.png) | ![](done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./148.Sort_List)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 150 | [Evaluate_Reverse_Polish_Notation](150.Evaluate_Reverse_Polish_Notation) |  ![](yet.png) | ![](yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./150.Evaluate_Reverse_Polish_Notation)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
-| 151 | [Reverse_Words_in_a_String](151.Reverse_Words_in_a_String) |  ![](yet.png) | ![](yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./151.Reverse_Words_in_a_String)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| 151 | [Reverse_Words_in_a_String](151.Reverse_Words_in_a_String) |  ![](done.png) | ![](yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./151.Reverse_Words_in_a_String)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 152 | [Maximum_Product_Subarray](152.Maximum_Product_Subarray) |  ![](done.png) | ![](yet.png) | &nbsp;Coming soon |
 | 153 | [Find_Minimum_in_Rotated_Sorted_Array](153.Find_Minimum_in_Rotated_Sorted_Array) |  ![](yet.png) | ![](yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./153.Find_Minimum_in_Rotated_Sorted_Array)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 154 | [Find_Minimum_in_Rotated_Sorted_Array_II](154.Find_Minimum_in_Rotated_Sorted_Array_II) |  ![](done.png) | ![](yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./154.Find_Minimum_in_Rotated_Sorted_Array_II)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
@@ -203,6 +214,7 @@ LeetCode
 | 209 | [Minimum_Size_Subarray_Sum](209.Minimum_Size_Subarray_Sum) |  ![](done.png) | ![](yet.png) | &nbsp;Coming soon |
 | 210 | [Course_Schedule_II](210.Course_Schedule_II) |  ![](yet.png) | ![](yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./210.Course_Schedule_II)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 213 | [House_Robber_II](213.House_Robber_II) |  ![](done.png) | ![](yet.png) | &nbsp;Coming soon |
+| 214 | [Shortest_Palindrome](214.Shortest_Palindrome) |  ![](done.png) | ![](yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./214.Shortest_Palindrome)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 215 | [Kth_Largest_Element_in_an_Array](215.Kth_Largest_Element_in_an_Array) |  ![](yet.png) | ![](yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./215.Kth_Largest_Element_in_an_Array)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 216 | [Combination_Sum_III](216.Combination_Sum_III) |  ![](yet.png) | ![](yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./216.Combination_Sum_III)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 217 | [Contains_Duplicate](217.Contains_Duplicate) |  ![](yet.png) | ![](yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./217.Contains_Duplicate)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
@@ -214,6 +226,7 @@ LeetCode
 | 224 | [Basic_Calculator](224.Basic_Calculator) |  ![](yet.png) | ![](yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./224.Basic_Calculator)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 225 | [Implement_Stack_using_Queues](225.Implement_Stack_using_Queues) |  ![](yet.png) | ![](yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./225.Implement_Stack_using_Queues)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 226 | [Invert_Binary_Tree](226.Invert_Binary_Tree) |  ![](yet.png) | ![](yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./226.Invert_Binary_Tree)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| 227 | [Basic_Calculator_II](227.Basic_Calculator_II) |  ![](done.png) | ![](done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./227.Basic_Calculator_II)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 228 | [Summary_Ranges](228.Summary_Ranges) |  ![](yet.png) | ![](yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./228.Summary_Ranges)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 229 | [Majority_Element_II](229.Majority_Element_II) |  ![](done.png) | ![](yet.png) | &nbsp;Coming soon |
 | 230 | [Kth_Smallest_Element_in_a_BST](230.Kth_Smallest_Element_in_a_BST) |  ![](yet.png) | ![](yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./230.Kth_Smallest_Element_in_a_BST)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
@@ -246,6 +259,7 @@ LeetCode
 | 391 | [Perfect_Rectangle](391.Perfect_Rectangle) |  ![](yet.png) | ![](yet.png) | &nbsp;Coming soon |
 | 403 | [Frog_Jump](403.Frog_Jump) |  ![](done.png) | ![](yet.png) | &nbsp;Coming soon |
 | 407 | [Trapping_Rain_Water_II](407.Trapping_Rain_Water_II) |  ![](done.png) | ![](yet.png) | &nbsp;Coming soon |
+| 434 | [Number_of_Segments_in_a_String](434.Number_of_Segments_in_a_String) |  ![](done.png) | ![](done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./434.Number_of_Segments_in_a_String)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 442 | [Find_All_Duplicates_in_an_Array](442.Find_All_Duplicates_in_an_Array) |  ![](done.png) | ![](yet.png) | &nbsp;Coming soon |
 | 445 | [Add_Two_Numbers_II](445.Add_Two_Numbers_II) |  ![](done.png) | ![](done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](./445.Add_Two_Numbers_II)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 483 | [Smallest_Good_Base](483.Smallest_Good_Base) |  ![](done.png) | ![](yet.png) | &nbsp;Coming soon |
@@ -262,3 +276,4 @@ LeetCode
 | 508 | [Most_Frequent_Subtree_Sum](508.Most_Frequent_Subtree_Sum) |  ![](done.png) | ![](yet.png) | &nbsp;Coming soon |
 | 513 | [Find_Left_Most_Element](513.Find_Left_Most_Element) |  ![](done.png) | ![](yet.png) | &nbsp;Coming soon |
 | 515 | [Find_Largest_Element_in_Each_Row](515.Find_Largest_Element_in_Each_Row) |  ![](done.png) | ![](yet.png) | &nbsp;Coming soon |
+| 517 | [Super_Washing_Machines](517.Super_Washing_Machines) |  ![](done.png) | ![](yet.png) | &nbsp;Coming soon |
