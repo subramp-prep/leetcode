@@ -10,13 +10,13 @@ public:
         for (int i = 0; i < n * 2; ++i)
         {
             int num = nums[i % n]; 
-            while (!stk.empty() && nums[stk.top()] < num)
+            while (!stk.empty() && nums[stk.top()] < num) // look back to find smaller value
             {
                 res[stk.top()] = num;
                 stk.pop();
             }
-            if (i < n) stk.push(i);
-            if (stk.empty()) break;
+            if (i < n) stk.push(i); // push index of current num to be filled
+            if (stk.empty()) break; // all indexes filled
         }
         return res;
     }
@@ -35,23 +35,23 @@ public:
         for (int i = 0; i < n; ++i)
         {
             int num = nums[i];
-            while (!stk.empty() && nums[stk.top()] < num)
+            while (!stk.empty() && nums[stk.top()] < num) // look back to find smaller values
             {
                 res[stk.top()] = num;
                 stk.pop();
             }
-            stk.push(i); // push index to be filled
+            stk.push(i); // push index of current num to be filled
         }
         
         for (int i = 0; i < n; ++i)
         {
             int num = nums[i];
-            while (!stk.empty() && nums[stk.top()] < num)
+            while (!stk.empty() && nums[stk.top()] < num) // look back to find smaller values
             {
                 res[stk.top()] = num;
                 stk.pop();
             }
-            if (stk.empty()) break; // all index filled
+            if (stk.empty()) break; // all indexes filled
         }
         return res;
     }
