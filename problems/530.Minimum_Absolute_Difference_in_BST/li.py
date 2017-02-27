@@ -27,5 +27,4 @@ class Solution(object):
 
 # https://discuss.leetcode.com/topic/81017/python-7-lines-ac-solution-with-comments
 # I am not sure if I well understand the question. I simply read all value in a list land sort it.
-# I find even I remove some checks like ìf not root or if len(l) < 2, I works!
-# So it seems that it don't accept the test case less than 2 nodes.
+# Note: There are at least two nodes in this BST.
