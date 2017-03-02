@@ -6,10 +6,10 @@ public:
         int n = nums.size();
         vector<int> res(n, -1);
         stack<int> stk;
-        
+
         for (int i = 0; i < n * 2; ++i)
         {
-            int num = nums[i % n]; 
+            int num = nums[i % n];
             while (!stk.empty() && nums[stk.top()] < num) // look back to find smaller value
             {
                 res[stk.top()] = num;
@@ -31,7 +31,7 @@ public:
         int n = nums.size();
         vector<int> res(n, -1);
         stack<int> stk;
-        
+
         for (int i = 0; i < n; ++i)
         {
             int num = nums[i];
@@ -42,7 +42,7 @@ public:
             }
             stk.push(i); // push index of current num to be filled
         }
-        
+
         for (int i = 0; i < n; ++i)
         {
             int num = nums[i];
