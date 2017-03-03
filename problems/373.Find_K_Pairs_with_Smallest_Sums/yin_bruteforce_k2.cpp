@@ -1,6 +1,6 @@
 // Brute force
-// Time Complexity O(mn)
-// Space Complexity O(mn)
+// Time Complexity O(k2)
+// Space Complexity O(k2)
 class Solution {
 public:
     vector<pair<int, int>> kSmallestPairs(vector<int>& nums1, vector<int>& nums2, int k)
@@ -10,8 +10,8 @@ public:
         if (n1 == 0 || n2 == 0 || k == 0) return res; // empty input
         
         // produce all pairs
-        for (int i = 0; i < n1; ++i)
-            for (int j = 0; j < n2; ++j)
+        for (int i = 0; i < min(n1, k); ++i)
+            for (int j = 0; j < min(n2, k); ++j)
                 res.push_back(make_pair(nums1[i], nums2[j]));
         
         // sort them by sum
