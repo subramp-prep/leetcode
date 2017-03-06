@@ -8,7 +8,7 @@ class Solution(object):
 
     def isHappy(self, n):
         while n > 4:
-            n = sum([int(x) ** 2 for x in str(n)])
+            n = sum(int(x) ** 2 for x in str(n))
         return n == 1
 
 s = Solution()
