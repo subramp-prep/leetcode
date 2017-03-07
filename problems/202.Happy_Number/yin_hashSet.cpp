@@ -1,6 +1,6 @@
 // Hash Set
 // Time complexity O(logn)
-// Space complexity O(1)
+// Space complexity O(logn)
 class Solution {
 public:
     bool isHappy(int n)
