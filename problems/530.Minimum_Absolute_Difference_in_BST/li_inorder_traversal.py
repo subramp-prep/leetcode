@@ -23,4 +23,4 @@ class Solution(object):
             if node.right:
                 bfs(node.right)
         bfs(root)
-        return min([abs(l[i] - l[i + 1]) for i in range(len(l) - 1)])
+        return min(abs(a - b) for a, b in zip(l, l[1:]))

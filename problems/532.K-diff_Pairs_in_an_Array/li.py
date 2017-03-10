@@ -34,3 +34,7 @@ class Solution(object):
             if k > 0 and i + k in c or k == 0 and c[i] > 1:
                 res += 1
         return res
+
+    def findPairs3(self, nums, k):
+        c = collections.Counter(nums)
+        return sum(k > 0 and i + k in c or k == 0 and c[i] > 1 for i in c)
