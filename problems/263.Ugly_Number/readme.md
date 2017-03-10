@@ -11,3 +11,9 @@
 ### **分析**：
 
 直接模拟就可以了。时间复杂度O(logn)，空间复杂度O(1)。
+
+
+### **相关问题**：
+
+[264 Ugly Number II](../264.Ugly_Number_II)
+[313 Super Ugly Number](../313.Super_Ugly_Number)
