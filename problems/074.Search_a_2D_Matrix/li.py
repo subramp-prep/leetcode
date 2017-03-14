@@ -18,3 +18,18 @@ class Solution(object):
             if n < len(matrix[m - 1]):
                 return matrix[m - 1][n] == target
         return False
+
+    def searchMatrix2(self, matrix, target):
+        m = bisect.bisect(matrix, [target + 0.5])
+        if m:
+            n = bisect.bisect(matrix[m - 1], target)
+            return len(matrix[0]) > 0 and matrix[m - 1][n - 1] == target
+        return False
+
+    def searchMatrix3(self, matrix, target):
+        m = bisect.bisect(matrix, [target + 0.5])
+        return len(matrix[0]) > 0 and matrix[m - 1][bisect.bisect(matrix[m - 1], target) - 1] == target if m else False
+
+
+# 两次bisect
+# ＋0.5 是为了保证出现在想要找的index后面。
