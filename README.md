@@ -95,7 +95,7 @@ solution前缀答案来自top solution。AC前缀的答案转载自[illuz](iillu
 | 071 | [Simplify Path](problems/071.Simplify_Path) |  ![](src/yet.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/071.Simplify_Path)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 072 | [Edit Distance](problems/072.Edit_Distance) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 073 | [Set Matrix Zeroes](problems/073.Set_Matrix_Zeroes) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
-| 074 | [Search a 2D Matrix](problems/074.Search_a_2D_Matrix) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 074 | [Search a 2D Matrix](problems/074.Search_a_2D_Matrix) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 075 | [Sort Colors](problems/075.Sort_Colors) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 076 | [Minimum Window Substring](problems/076.Minimum_Window_Substring) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/076.Minimum_Window_Substring)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 077 | [Combinations](problems/077.Combinations) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
@@ -147,7 +147,7 @@ solution前缀答案来自top solution。AC前缀的答案转载自[illuz](iillu
 | 123 | [Best Time to Buy and Sell Stock III](problems/123.Best_Time_to_Buy_and_Sell_Stock_III) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/123.Best_Time_to_Buy_and_Sell_Stock_III)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 124 | [Binary Tree Maximum Path Sum](problems/124.Binary_Tree_Maximum_Path_Sum) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/124.Binary_Tree_Maximum_Path_Sum)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 125 | [Valid Palindrome](problems/125.Valid_Palindrome) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
-| 126 | [Word Ladder](problems/126.Word_Ladder) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/126.Word_Ladder)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| 127 | [Word Ladder](problems/127.Word_Ladder) |  ![](src/done.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/127.Word_Ladder)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 128 | [Longest Consecutive Sequence](problems/128.Longest_Consecutive_Sequence) |  ![](src/done.png) | ![](src/done.png) | &nbsp;Coming soon |
 | 129 | [Sum Root to Leaf Numbers](problems/129.Sum_Root_to_Leaf_Numbers) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 130 | [Surrounded Regions](problems/130.Surrounded_Regions) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/130.Surrounded_Regions)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
@@ -167,8 +167,8 @@ solution前缀答案来自top solution。AC前缀的答案转载自[illuz](iillu
 | 146 | [LRU Cache](problems/146.LRU_Cache) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/146.LRU_Cache)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 147 | [Insertion Sort List](problems/147.Insertion_Sort_List) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/147.Insertion_Sort_List)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 148 | [Sort List](problems/148.Sort_List) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/148.Sort_List)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
-| 150 | [Evaluate Reverse Polish Notation](problems/150.Evaluate_Reverse_Polish_Notation) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/150.Evaluate_Reverse_Polish_Notation)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
-| 151 | [Reverse Words in a String](problems/151.Reverse_Words_in_a_String) |  ![](src/done.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/151.Reverse_Words_in_a_String)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| 150 | [Evaluate Reverse Polish Notation](problems/150.Evaluate_Reverse_Polish_Notation) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/150.Evaluate_Reverse_Polish_Notation)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| 151 | [Reverse Words in a String](problems/151.Reverse_Words_in_a_String) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/151.Reverse_Words_in_a_String)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 152 | [Maximum Product Subarray](problems/152.Maximum_Product_Subarray) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 153 | [Find Minimum in Rotated Sorted Array](problems/153.Find_Minimum_in_Rotated_Sorted_Array) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/153.Find_Minimum_in_Rotated_Sorted_Array)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 154 | [Find Minimum in Rotated Sorted Array II](problems/154.Find_Minimum_in_Rotated_Sorted_Array_II) |  ![](src/done.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/154.Find_Minimum_in_Rotated_Sorted_Array_II)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
@@ -177,11 +177,11 @@ solution前缀答案来自top solution。AC前缀的答案转载自[illuz](iillu
 | 162 | [Find Peak Element](problems/162.Find_Peak_Element) |  ![](src/done.png) | ![](src/done.png) | &nbsp;Coming soon |
 | 164 | [Maximum Gap](problems/164.Maximum_Gap) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/164.Maximum_Gap)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 165 | [Compare Version Numbers](problems/165.Compare_Version_Numbers) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
-| 166 | [Fraction to Recurring Decimal](problems/166.Fraction_to_Recurring_Decimal) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/166.Fraction_to_Recurring_Decimal)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| 166 | [Fraction to Recurring Decimal](problems/166.Fraction_to_Recurring_Decimal) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/166.Fraction_to_Recurring_Decimal)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 168 | [Excel Sheet Column Title](problems/168.Excel_Sheet_Column_Title) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 169 | [Majority Element](problems/169.Majority_Element) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 171 | [Excel Sheet Column Number](problems/171.Excel_Sheet_Column_Number) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
-| 172 | [Factorial Trailing Zeroes](problems/172.Factorial_Trailing_Zeroes) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 172 | [Factorial Trailing Zeroes](problems/172.Factorial_Trailing_Zeroes) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/172.Factorial_Trailing_Zeroes)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 173 | [Binary Search Tree Iterator](problems/173.Binary_Search_Tree_Iterator) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/173.Binary_Search_Tree_Iterator)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 175 | [Combine Two Tables](problems/175.Combine_Two_Tables) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 176 | [Second Highest Salary](problems/176.Second_Highest_Salary) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
@@ -208,7 +208,7 @@ solution前缀答案来自top solution。AC前缀的答案转载自[illuz](iillu
 | 199 | [Binary Tree Right Side View](problems/199.Binary_Tree_Right_Side_View) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/199.Binary_Tree_Right_Side_View)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 200 | [Number of Islands](problems/200.Number_of_Islands) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/200.Number_of_Islands)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 201 | [Bitwise AND of Numbers Range](problems/201.Bitwise_AND_of_Numbers_Range) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/201.Bitwise_AND_of_Numbers_Range)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
-| 202 | [Happy Number](problems/202.Happy_Number) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/202.Happy_Number)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| 202 | [Happy Number](problems/202.Happy_Number) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/202.Happy_Number)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 203 | [Remove Linked List Elements](problems/203.Remove_Linked_List_Elements) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/203.Remove_Linked_List_Elements)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 204 | [Count Primes](problems/204.Count_Primes) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 205 | [Isomorphic Strings](problems/205.Isomorphic_Strings) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/205.Isomorphic_Strings)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
@@ -219,7 +219,7 @@ solution前缀答案来自top solution。AC前缀的答案转载自[illuz](iillu
 | 210 | [Course Schedule II](problems/210.Course_Schedule_II) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/210.Course_Schedule_II)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 213 | [House Robber II](problems/213.House_Robber_II) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 214 | [Shortest Palindrome](problems/214.Shortest_Palindrome) |  ![](src/done.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/214.Shortest_Palindrome)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
-| 215 | [Kth Largest Element in an Array](problems/215.Kth_Largest_Element_in_an_Array) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/215.Kth_Largest_Element_in_an_Array)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| 215 | [Kth Largest Element in an Array](problems/215.Kth_Largest_Element_in_an_Array) |  ![](src/yet.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/215.Kth_Largest_Element_in_an_Array)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 216 | [Combination Sum III](problems/216.Combination_Sum_III) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/216.Combination_Sum_III)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 217 | [Contains Duplicate](problems/217.Contains_Duplicate) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/217.Contains_Duplicate)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 219 | [Contains Duplicate II](problems/219.Contains_Duplicate_II) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/219.Contains_Duplicate_II)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
@@ -227,7 +227,7 @@ solution前缀答案来自top solution。AC前缀的答案转载自[illuz](iillu
 | 221 | [Maximal Square](problems/221.Maximal_Square) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/221.Maximal_Square)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 222 | [Count Complete Tree Nodes](problems/222.Count_Complete_Tree_Nodes) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/222.Count_Complete_Tree_Nodes)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 223 | [Rectangle Area](problems/223.Rectangle_Area) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/223.Rectangle_Area)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
-| 224 | [Basic Calculator](problems/224.Basic_Calculator) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/224.Basic_Calculator)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| 224 | [Basic Calculator](problems/224.Basic_Calculator) |  ![](src/yet.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/224.Basic_Calculator)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 225 | [Implement Stack using Queues](problems/225.Implement_Stack_using_Queues) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/225.Implement_Stack_using_Queues)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 226 | [Invert Binary Tree](problems/226.Invert_Binary_Tree) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/226.Invert_Binary_Tree)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 227 | [Basic Calculator II](problems/227.Basic_Calculator_II) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/227.Basic_Calculator_II)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
@@ -245,9 +245,10 @@ solution前缀答案来自top solution。AC前缀的答案转载自[illuz](iillu
 | 242 | [Valid Anagram](problems/242.Valid_Anagram) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/242.Valid_Anagram)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 257 | [Binary Tree Paths](problems/257.Binary_Tree_Paths) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/257.Binary_Tree_Paths)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 258 | [Add Digits](problems/258.Add_Digits) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/258.Add_Digits)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
-| 263 | [Ugly Number](problems/263.Ugly_Number) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/263.Ugly_Number)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| 263 | [Ugly Number](problems/263.Ugly_Number) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/263.Ugly_Number)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| 264 | [Ugly Number II](problems/264.Ugly_Number_II) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/264.Ugly_Number_II)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 268 | [Missing Number](problems/268.Missing_Number) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/268.Missing_Number)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
-| 278 | [First Bad Version](problems/278.First_Bad_Version) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/278.First_Bad_Version)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| 278 | [First Bad Version](problems/278.First_Bad_Version) |  ![](src/done.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/278.First_Bad_Version)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 279 | [Perfect Squares](problems/279.Perfect_Squares) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/279.Perfect_Squares)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 283 | [Move Zeroes](problems/283.Move_Zeroes) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/283.Move_Zeroes)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 289 | [Game of Life](problems/289.Game_of_Life) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/289.Game_of_Life)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
@@ -255,18 +256,23 @@ solution前缀答案来自top solution。AC前缀的答案转载自[illuz](iillu
 | 292 | [Nim Game](problems/292.Nim_Game) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/292.Nim_Game)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 299 | [Bulls and Cows](problems/299.Bulls_and_Cows) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 309 | [Best Time to Buy and Sell Stock with Cooldown](problems/309.Best_Time_to_Buy_and_Sell_Stock_with_Cooldown) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 313 | [Super Ugly Number](problems/313.Super_Ugly_Number) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/313.Super_Ugly_Number)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 326 | [Power of Three](problems/326.Power_of_Three) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/326.Power_of_Three)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 328 | [Odd Even Linked List](problems/328.Odd_Even_Linked_List) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/328.Odd_Even_Linked_List)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 334 | [Increasing Triplet Subsequence](problems/334.Increasing_Triplet_Subsequence) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/334.Increasing_Triplet_Subsequence)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 337 | [House Robber III](problems/337.House_Robber_III) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 373 | [Find K Pairs with Smallest Sums](problems/373.Find_K_Pairs_with_Smallest_Sums) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/373.Find_K_Pairs_with_Smallest_Sums)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 385 | [Mini Parser](problems/385.Mini_Parser) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/385.Mini_Parser)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 391 | [Perfect Rectangle](problems/391.Perfect_Rectangle) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 402 | [Remove K Digits](problems/402.Remove_K_Digits) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/402.Remove_K_Digits)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 403 | [Frog Jump](problems/403.Frog_Jump) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 407 | [Trapping Rain Water II](problems/407.Trapping_Rain_Water_II) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 434 | [Number of Segments in a String](problems/434.Number_of_Segments_in_a_String) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/434.Number_of_Segments_in_a_String)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 442 | [Find All Duplicates in an Array](problems/442.Find_All_Duplicates_in_an_Array) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 445 | [Add Two Numbers II](problems/445.Add_Two_Numbers_II) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/445.Add_Two_Numbers_II)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
-| 483 | [Smallest Good Base](problems/483.Smallest_Good_Base) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 451 | [Sort Characters By Frequency](problems/451.Sort_Characters_By_Frequency) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/451.Sort_Characters_By_Frequency)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| 475 | [heaters](problems/475.heaters) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 483 | [Smallest Good Base](problems/483.Smallest_Good_Base) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/483.Smallest_Good_Base)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 484 | [Find Permutation](problems/484.Find_Permutation) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 491 | [Increasing Subsequences](problems/491.Increasing_Subsequences) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 493 | [Reverse Pairs](problems/493.Reverse_Pairs) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
@@ -275,9 +281,16 @@ solution前缀答案来自top solution。AC前缀的答案转载自[illuz](iillu
 | 498 | [Diagonal Traverse](problems/498.Diagonal_Traverse) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 500 | [Keyboard Row](problems/500.Keyboard_Row) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 502 | [IPO](problems/502.IPO) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
-| 503 | [Next Greater Element II](problems/503.Next_Greater_Element_II) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 503 | [Next Greater Element II](problems/503.Next_Greater_Element_II) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/503.Next_Greater_Element_II)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 504 | [Base 7](problems/504.Base_7) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 508 | [Most Frequent Subtree Sum](problems/508.Most_Frequent_Subtree_Sum) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 513 | [Find Left Most Element](problems/513.Find_Left_Most_Element) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 514 | [Freedom Trail](problems/514.Freedom_Trail) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 515 | [Find Largest Element in Each Row](problems/515.Find_Largest_Element_in_Each_Row) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 517 | [Super Washing Machines](problems/517.Super_Washing_Machines) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 523 | [Continuous Subarray Sum](problems/523.Continuous_Subarray_Sum) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 524 | [Longest Word in Dictionary through Deleting](problems/524.Longest_Word_in_Dictionary_through_Deleting) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 529 | [Minesweeper](problems/529.Minesweeper) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 530 | [Minimum Absolute Difference in BST](problems/530.Minimum_Absolute_Difference_in_BST) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 532 | [K-diff Pairs in an Array](problems/532.K-diff_Pairs_in_an_Array) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 541 | [Reverse String II](problems/541.Reverse_String_II) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
