@@ -16,4 +16,6 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        return right if right == left else self.firstBadVersion((left + right) / 2, left) if isBadVersion((left + right) / 2) else self.firstBadVersion(right, (left + right) / 2 + 1)
+        return right if right == left \
+            else self.firstBadVersion((left + right) / 2, left) if isBadVersion((left + right) / 2) \
+            else self.firstBadVersion(right, (left + right) / 2 + 1)

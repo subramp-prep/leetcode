@@ -30,6 +30,11 @@ class Solution(object):
         m = bisect.bisect(matrix, [target + 0.5])
         return len(matrix[0]) > 0 and matrix[m - 1][bisect.bisect(matrix[m - 1], target) - 1] == target if m else False
 
+    # improved by stefan
+    def searchMatrix4(self, matrix, target):
+        i = bisect.bisect(matrix, [target + 0.5]) - 1
+        return any(matrix) and matrix[i][bisect.bisect(matrix[i], target) - 1] == target
 
+# https://discuss.leetcode.com/topic/16543/6-12-lines-o-log-m-log-n-myself-library/7
 # 两次bisect
 # ＋0.5 是为了保证出现在想要找的index后面。
