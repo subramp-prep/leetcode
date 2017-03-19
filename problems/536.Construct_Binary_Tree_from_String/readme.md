@@ -1,5 +1,5 @@
-536. Construct Binary Tree from String
-========================================
+536 Construct Binary Tree from String
+======================================
 
 <div class="question-info text-info">
 <ul>
