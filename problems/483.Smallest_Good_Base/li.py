@@ -3,17 +3,19 @@
 # File:        li.py
 # Create Date: 2017-01-28
 
+import math
+
 
 class Solution(object):
 
-  def smallestGoodBase(self, N):
-    import math
-    n = int(N)
-    for k in xrange(int(math.log(n, 2)), 1, -1):
-      x = int(n ** k ** -1)  # kth-root of n
-      if (1 - x ** (k + 1)) // (1 - x) == n:  # [a^0 + a^1 + ... + a^k] == n
-        return str(x)
-    return str(n - 1)
+    def smallestGoodBase(self, N):
+
+        n = int(N)
+        for k in xrange(int(math.log(n, 2)), 1, -1):
+            x = int(n ** k ** -1)  # kth-root of n
+            if (1 - x ** (k + 1)) // (1 - x) == n:  # [a^0 + a^1 + ... + a^k] == n
+                return str(x)
+        return str(n - 1)
 
 
 # x ^ k < x ^ 0 + x ^ 1 + ... + x ^ k = n <= x ^ (k + 1)
