@@ -1,7 +1,7 @@
 ## 089. Gray Code (Medium) 
   
 ### **链接**：  
-题目：https://leetcode.com/problems/gray-code/
+题目：https://leetcode.com/problems/gray-code/  
 代码(github)：https://github.com/JianghanLi/LeetCode  
 
 <h1>题目：</h1> 
@@ -23,7 +23,11 @@
 <p style="margin-top:0px; margin-bottom:10px; color:rgb(51,51,51); font-family:&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-serif; font-size:14px; line-height:30px"> 格雷码：<a target="_blank" href="http://baike.baidu.com/link?url=YnRSupt_rTOzFEM5PENs1hbds0VBu-0ay3KWZc5C5NTx4wR13-ALLLzWglja-nZ-rRlkw_FQSU9IBc0MdS0uuq" rel="nofollow">http://baike.baidu.com/link?url=YnRSupt_rTOzFEM5PENs1hbds0VBu-0ay3KWZc5C5NTx4wR13-ALLLzWglja-nZ-rRlkw_FQSU9IBc0MdS0uuq</a>&nbsp;。</p> 
 <h1>思路：</h1> 
 <p style="margin-top:0px; margin-bottom:10px; color:rgb(51,51,51); font-family:&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-serif; font-size:14px; line-height:30px"> </p> 
-<p>自然二进制码转换为格雷码：g 0 = b 0 , g i = b i ⊕ b i − 1<br> 保留自然二进制码的最高位作为格雷码的最高位（首位），格雷码次高位为二进制码的高位与次高位异或，其余各位与次高位的求法类似。例如，将自然二进制码1001，转换为格雷码的过程是：保留最高位；然后将第1 位的1 和第2 位的0 异或，得到1，作为格雷码的第2 位；将第2 位的0 和第3 位的0 异或，得到0，作为格雷码的第3 位；将第3 位的0 和第4 位的1 异或，得到1，作为格雷码的第4 位，最终，格雷码为1101。<br> 格雷码转换为自然二进制码：b 0 = g 0 , b i = g i ⊕ b i − 1<br> 保留格雷码的最高位作为自然二进制码的最高位，次高位为自然二进制高位与格雷码次高位异或，其余各位与次高位的求法类似。例如，将格雷码1000 转换为自然二进制码的过程是：保留最高位1，作为自然二进制码的最高位；然后将自然二进制码的第1 位1 和格雷码的第2 位0 异或，得到1，作为自然二进制码的第2 位；将自然二进制码的第2 位1 和格雷码的第3 位0 异或，得到1，作为自然二进制码的第3 位；将自然二进制码的第3 位1 和格雷码的第4 位0 异或，得到1，作为自然二进制码的第4 位，最终，自然二进制码为1111。<br> <span style="color:red">格雷码有数学公式，整数</span><span style="color:red"> n </span><span style="color:red">的格雷码是</span><span style="color:red"> n </span><span style="color:red">⊕</span><span style="color:red"> ( n/2)</span><span style="color:red">。(实际是由n的自然二进制码转换为格雷码，然后由格雷码转换为十进制数，比如上面的1001-&gt;1101)</span><br> 这题要求生成 n 比特的所有格雷码。<br> 方法 1，最简单的方法，利用数学公式，对从0 ∼ 2 ^n − 1 的所有整数，转化为格雷码。<br> 方法 2，n 比特的格雷码，可以递归地从n − 1 比特的格雷码生成。</p> 
+<p>自然二进制码转换为格雷码：g 0 = b 0 , g i = b i ⊕ b i − 1<br> 保留自然二进制码的最高位作为格雷码的最高位（首位），格雷码次高位为二进制码的高位与次高位异或，其余各位与次高位的求法类似。例如，将自然二进制码1001，转换为格雷码的过程是：保留最高位；然后将第1 位的1 和第2 位的0 异或，得到1，作为格雷码的第2 位；将第2 位的0 和第3 位的0 异或，得到0，作为格雷码的第3 位；将第3 位的0 和第4 位的1 异或，得到1，作为格雷码的第4 位，最终，格雷码为1101。<br> 格雷码转换为自然二进制码：b 0 = g 0 , b i = g i ⊕ b i − 1<br> 保留格雷码的最高位作为自然二进制码的最高位，次高位为自然二进制高位与格雷码次高位异或，其余各位与次高位的求法类似。例如，将格雷码1000 转换为自然二进制码的过程是：保留最高位1，作为自然二进制码的最高位；然后将自然二进制码的第1 位1 和格雷码的第2 位0 异或，得到1，作为自然二进制码的第2 位；将自然二进制码的第2 位1 和格雷码的第3 位0 异或，得到1，作为自然二进制码的第3 位；将自然二进制码的第3 位1 和格雷码的第4 位0 异或，得到1，作为自然二进制码的第4 位，最终，自然二进制码为1111。
+
+<br><span style="color:red">格雷码有数学公式，整数</span><span style="color:red"> n </span><span style="color:red">的格雷码是</span><span style="color:red"> n </span><span style="color:red">⊕</span><span style="color:red"> ( n/2)</span><span style="color:red">。(实际是由n的自然二进制码转换为格雷码，然后由格雷码转换为十进制数，比如上面的1001-&gt;1101)</span><br>
+
+这题要求生成 n 比特的所有格雷码。<br> 方法 1，最简单的方法，利用数学公式，对从0 ∼ 2 ^n − 1 的所有整数，转化为格雷码。<br> 方法 2，n 比特的格雷码，可以递归地从n − 1 比特的格雷码生成。</p> 
 <p></p> 
 <p>这种方法基于格雷码是反射码的事实，利用递归的如下规则来构造：</p> 
 <p>1位格雷码有两个码字</p> 
@@ -205,10 +209,10 @@
 </table> 
 <br> 
 <p></p> 
-<p></p> 
+<p></p>
+
 <pre name="code" class="cpp hljs"><span class="hljs-keyword">class</span> Solution {
 <span class="hljs-keyword">public</span>:
-
     <span class="hljs-stl_container"><span class="hljs-built_in">vector</span>&lt;<span class="hljs-keyword">int</span>&gt;</span> grayCode(<span class="hljs-keyword">int</span> n) 
     {
         <span class="hljs-stl_container"><span class="hljs-built_in">vector</span>&lt;<span class="hljs-keyword">int</span>&gt;</span> result;
@@ -225,4 +229,4 @@
     }
 };</pre>
                 
-<a href="http://blog.csdn.net/u012243115/article/details/42486895" target="_blank" rel="nofollow">原文链接</a>           
+<a href="http://blog.csdn.net/u012243115/article/details/42486895" target="_blank" rel="nofollow">原文链接</a>
