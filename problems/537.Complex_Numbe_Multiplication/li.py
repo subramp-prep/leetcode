@@ -13,7 +13,8 @@ class Solution(object):
         :type b: str
         :rtype: str
         """
-        a, b = map(int, a[:-1].split('+')), map(int, b[:-1].split('+'))
+        a = map(int, a[:-1].split('+'))
+        b = map(int, b[:-1].split('+'))
         return '%d+%di' % (a[0] * b[0] - a[1] * b[1], a[0] * b[1] + a[1] * b[0])
 
     def complexNumberMultiply2(self, a, b):
