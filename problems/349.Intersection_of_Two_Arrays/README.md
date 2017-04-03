@@ -5,13 +5,15 @@
 题解：https://github.com/JianghanLi/LeetCode
 
 ### **题意**
-
-
+求两个数组交集
 
 ### **分析**  
-题目类别(Tags)：  
-最优复杂度(Complexity)：  
+题目类别(Tags)： HashTable
+最优复杂度(Complexity)： O(N+M)
+
+遍历数组，用HashTable(HashSet)记录。
 
 
 
-作者: Yin
+
+
