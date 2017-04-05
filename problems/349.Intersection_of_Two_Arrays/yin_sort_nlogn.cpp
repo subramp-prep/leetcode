@@ -1,5 +1,5 @@
 // Sort
-// Time Complexity O(n2)
+// Time Complexity O(nlogn)
 // Space Complexity O(1)
 class Solution {
 public:
