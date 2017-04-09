@@ -19,7 +19,9 @@ solution前缀答案来自top solution。AC前缀的答案转载自[illuz](iillu
 3. 请在提交的每一份代码中，适当标注作者，复杂度和代码思路解释。以便于别人交流学习。
 每道问题下面的README，只作为提纲挈领，可以加入对文件的引用的代码。例如：```[动态规划](yin.cpp)```
 
-
+There are 523 problems.
+Han has solved 100 problems.
+Yin has solved 68 problems.
 
 | No.| Problem | Han | Yin | Note |
 |----|---------|-----|-----|------|
@@ -78,7 +80,7 @@ solution前缀答案来自top solution。AC前缀的答案转载自[illuz](iillu
 | 053 | [Maximum Subarray](problems/053.Maximum_Subarray) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 054 | [Spiral Matrix](problems/054.Spiral_Matrix) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 055 | [Jump Game](problems/055.Jump_Game) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
-| 056 | [Merge Intervals](problems/056.Merge_Intervals) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 056 | [Merge Intervals](problems/056.Merge_Intervals) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/056.Merge_Intervals)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 057 | [Insert Interval](problems/057.Insert_Interval) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 058 | [Length of Last Word](problems/058.Length_of_Last_Word) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 059 | [Spiral Matrix II](problems/059.Spiral_Matrix_II) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
@@ -144,7 +146,7 @@ solution前缀答案来自top solution。AC前缀的答案转载自[illuz](iillu
 | 119 | [Pascal's Triangle II](problems/119.Pascal's_Triangle_II) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 120 | [Triangle](problems/120.Triangle) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 121 | [Best Time to Buy and Sell Stock](problems/121.Best_Time_to_Buy_and_Sell_Stock) |  ![](src/done.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/121.Best_Time_to_Buy_and_Sell_Stock)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
-| 122 | [Best Time to Buy and Sell Stock II](problems/122.Best_Time_to_Buy_and_Sell_Stock_II) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/122.Best_Time_to_Buy_and_Sell_Stock_II)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| 122 | [Best Time to Buy and Sell Stock II](problems/122.Best_Time_to_Buy_and_Sell_Stock_II) |  ![](src/yet.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/122.Best_Time_to_Buy_and_Sell_Stock_II)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 123 | [Best Time to Buy and Sell Stock III](problems/123.Best_Time_to_Buy_and_Sell_Stock_III) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/123.Best_Time_to_Buy_and_Sell_Stock_III)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 124 | [Binary Tree Maximum Path Sum](problems/124.Binary_Tree_Maximum_Path_Sum) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/124.Binary_Tree_Maximum_Path_Sum)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 125 | [Valid Palindrome](problems/125.Valid_Palindrome) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
@@ -263,7 +265,7 @@ solution前缀答案来自top solution。AC前缀的答案转载自[illuz](iillu
 | 239 | [Sliding Window Maximum](problems/239.Sliding_Window_Maximum) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/239.Sliding_Window_Maximum)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 240 | [Search a 2D Matrix II](problems/240.Search_a_2D_Matrix_II) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/240.Search_a_2D_Matrix_II)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 241 | [Different Ways to Add Parentheses](problems/241.Different_Ways_to_Add_Parentheses) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/241.Different_Ways_to_Add_Parentheses)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
-| 242 | [Valid Anagram](problems/242.Valid_Anagram) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/242.Valid_Anagram)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| 242 | [Valid Anagram](problems/242.Valid_Anagram) |  ![](src/done.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/242.Valid_Anagram)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 243 | [Shortest Word Distance](problems/243.Shortest_Word_Distance) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 244 | [Shortest Word Distance II](problems/244.Shortest_Word_Distance_II) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 245 | [Shortest Word Distance III](problems/245.Shortest_Word_Distance_III) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
@@ -369,7 +371,7 @@ solution前缀答案来自top solution。AC前缀的答案转载自[illuz](iillu
 | 346 | [Moving Average from Data Stream](problems/346.Moving_Average_from_Data_Stream) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 347 | [Top K Frequent Elements](problems/347.Top_K_Frequent_Elements) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 348 | [Design Tic-Tac-Toe](problems/348.Design_Tic-Tac-Toe) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
-| 349 | [Intersection of Two Arrays](problems/349.Intersection_of_Two_Arrays) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 349 | [Intersection of Two Arrays](problems/349.Intersection_of_Two_Arrays) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/349.Intersection_of_Two_Arrays)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 350 | [Intersection of Two Arrays II](problems/350.Intersection_of_Two_Arrays_II) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 351 | [Android Unlock Patterns](problems/351.Android_Unlock_Patterns) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 352 | [Data Stream as Disjoint Intervals](problems/352.Data_Stream_as_Disjoint_Intervals) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
@@ -522,6 +524,8 @@ solution前缀答案来自top solution。AC前缀的答案转载自[illuz](iillu
 | 516 | [Longest Palindromic Subsequence](problems/516.Longest_Palindromic_Subsequence) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 517 | [Super Washing Machines](problems/517.Super_Washing_Machines) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 520 | [Detect Capital](problems/520.Detect_Capital) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 521 | [Longest Uncommon Subsequence I](problems/521.Longest_Uncommon_Subsequence_I) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 522 | [Longest Uncommon Subsequence II](problems/522.Longest_Uncommon_Subsequence_II) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 523 | [Continuous Subarray Sum](problems/523.Continuous_Subarray_Sum) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 524 | [Longest Word in Dictionary through Deleting](problems/524.Longest_Word_in_Dictionary_through_Deleting) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 525 | [Contiguous Array](problems/525.Contiguous_Array) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
@@ -541,3 +545,6 @@ solution前缀答案来自top solution。AC前缀的答案转载自[illuz](iillu
 | 542 | [01 Matrix](problems/542.01_Matrix) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 543 | [Diameter of Binary Tree](problems/543.Diameter_of_Binary_Tree) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 544 | [Output Contest Matches](problems/544.Output_Contest_Matches) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 547 | [Friend Circles](problems/547.Friend_Circles) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 548 | [Split Array with Equal Sum](problems/548.Split_Array_with_Equal_Sum) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 548 | [ Split Array with Equal Sum](problems/548._Split_Array_with_Equal_Sum) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
