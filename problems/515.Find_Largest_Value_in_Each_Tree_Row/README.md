@@ -5,13 +5,16 @@
 题解：https://github.com/JianghanLi/LeetCode
 
 ### **题意**
-
+返回每层最大数组成的数组。
 
 
 ### **分析**  
-题目类别(Tags)：  
-最优复杂度(Complexity)：  
+题目类别(Tags)：BFS
+最优复杂度(Complexity)：O(N)
 
 
+### **备注**
+原题叫做 515.Find Largest Element in Each Row，
+现在改为题意更加明确的 515.Find Largest Value in Each Row
 
-作者: Yin
+
