@@ -13,5 +13,6 @@
 最优复杂度(Complexity)：  
 
 
-
-作者: Yin
+### **备注**
+原题叫做 513.Find Left Most Element，
+现在改为题意更明确的 513. Find Bottom Left Tree Value

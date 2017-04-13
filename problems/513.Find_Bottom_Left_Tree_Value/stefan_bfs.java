@@ -1,4 +1,4 @@
-public int findLeftMostNode(TreeNode root) {
+public int findBottomLeftValue(TreeNode root) {
     Queue<TreeNode> queue = new LinkedList<>();
     queue.add(root);
     while (!queue.isEmpty()) {
