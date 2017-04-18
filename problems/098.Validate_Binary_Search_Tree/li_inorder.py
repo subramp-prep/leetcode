@@ -25,3 +25,20 @@ class Solution:
 # we find the incorrect ordering while doing the inOrder().
 # So I modified the solution.
 # https://discuss.leetcode.com/topic/10455/python-version-based-on-inorder-traversal
+
+
+class Solution:
+
+    def isValidBST(self, root):
+        self.prev = -float('inf')
+        return self.inOrder(root)
+
+    def inOrder(self, root):
+        if not root:
+            return True
+        if not self.inOrder(root.left):
+            return False
+        if self.prev >= root.val:
+            return False
+        self.prev = root.val
+        return self.inOrder(root.right)
