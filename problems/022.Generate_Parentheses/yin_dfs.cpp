@@ -1,3 +1,6 @@
+// Depth First Search + recursive
+// Time Complexity O(n*Cat(n))
+// Space Complexity O(n*n*Cat(n))
 class Solution {
 public:
     // The only rule to respect is : for a pair of parentheses, add '(' before ')'

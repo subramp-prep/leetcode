@@ -1,3 +1,6 @@
+// Dynamic programming
+// Time Complexity O(n*Cat(n))
+// Space Complexity O(n*n*Cat(n))
 class Solution {
 public:
     // we can generate parentheses step by step
