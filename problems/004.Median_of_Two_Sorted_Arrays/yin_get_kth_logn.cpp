@@ -1,3 +1,7 @@
+// Binary Search + Recursion
+// Time Complexity O(log(m+n))
+// Space Complexity O((m+n)*log(m+n))
+// The key point of this problem is to ignore half part of A and B each step recursively by comparing the median of remaining A and B
 class Solution {
 public:
     // this question can be seen as "Find the (m+n+1)/2 th biggest number in two sorted arrays"

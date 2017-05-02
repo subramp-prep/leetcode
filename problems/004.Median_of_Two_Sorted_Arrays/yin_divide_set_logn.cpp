@@ -1,3 +1,6 @@
+// Binary Search + Iteration
+// Time Complexity O(log(min(m,n))
+// Space Complexity O(1)
 class Solution
 {
 public:
@@ -55,7 +58,7 @@ public:
 			max_of_left = max(nums1[i - 1], nums2[j - 1]);
 		
 		// Odd number case
-		 if ((m + n) % 2 != 0)
+		if ((m + n) % 2 != 0)
 			 return max_of_left;
 		
 		// Even number case
