@@ -4,6 +4,7 @@ LeetCode题解
 ![](https://img.shields.io/badge/Contributor-Yin-brightgreen.svg)
 ![](https://img.shields.io/badge/Language-%20Python/C++/Java%20-blue.svg)
 
+
 ###To User:
 1. 你可以在上方选择Fork，复制项目到自己空间。
 2. 你也可以在右上角点击Star点赞。
@@ -19,9 +20,9 @@ solution前缀答案来自top solution。AC前缀的答案转载自[illuz](iillu
 3. 请在提交的每一份代码中，适当标注作者，复杂度和代码思路解释。以便于别人交流学习。
 每道问题下面的README，只作为提纲挈领，可以加入对文件的引用的代码。例如：```[动态规划](yin.cpp)```
 
-There are 523 problems.
-Han has solved 100 problems.
-Yin has solved 68 problems.
+There are 539 problems.
+Han has solved 124 problems.
+Yin has solved 78 problems.
 
 | No.| Problem | Han | Yin | Note |
 |----|---------|-----|-----|------|
@@ -35,7 +36,7 @@ Yin has solved 68 problems.
 | 008 | [String to Integer (atoi)](problems/008.String_to_Integer_(atoi)) |  ![](src/yet.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/008.String_to_Integer_(atoi))&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 009 | [Palindrome Number](problems/009.Palindrome_Number) |  ![](src/yet.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/009.Palindrome_Number)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 010 | [Regular Expression Matching](problems/010.Regular_Expression_Matching) |  ![](src/yet.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/010.Regular_Expression_Matching)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
-| 011 | [Container With Most Water](problems/011.Container_With_Most_Water) |  ![](src/yet.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/011.Container_With_Most_Water)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| 011 | [Container With Most Water](problems/011.Container_With_Most_Water) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/011.Container_With_Most_Water)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 012 | [Integer to Roman](problems/012.Integer_to_Roman) |  ![](src/yet.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/012.Integer_to_Roman)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 013 | [Roman to Integer](problems/013.Roman_to_Integer) |  ![](src/yet.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/013.Roman_to_Integer)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 014 | [Longest Common Prefix](problems/014.Longest_Common_Prefix) |  ![](src/done.png) | ![](src/done.png) | &nbsp;Coming soon |
@@ -120,25 +121,25 @@ Yin has solved 68 problems.
 | 093 | [Restore IP Addresses](problems/093.Restore_IP_Addresses) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/093.Restore_IP_Addresses)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 094 | [Binary Tree Inorder Traversal](problems/094.Binary_Tree_Inorder_Traversal) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 095 | [Unique Binary Search Trees II](problems/095.Unique_Binary_Search_Trees_II) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/095.Unique_Binary_Search_Trees_II)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
-| 096 | [Unique Binary Search Trees](problems/096.Unique_Binary_Search_Trees) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/096.Unique_Binary_Search_Trees)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| 096 | [Unique Binary Search Trees](problems/096.Unique_Binary_Search_Trees) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/096.Unique_Binary_Search_Trees)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 097 | [Interleaving String](problems/097.Interleaving_String) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/097.Interleaving_String)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
-| 098 | [Validate Binary Search Tree](problems/098.Validate_Binary_Search_Tree) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/098.Validate_Binary_Search_Tree)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| 098 | [Validate Binary Search Tree](problems/098.Validate_Binary_Search_Tree) |  ![](src/done.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/098.Validate_Binary_Search_Tree)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 099 | [Recover Binary Search Tree](problems/099.Recover_Binary_Search_Tree) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/099.Recover_Binary_Search_Tree)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 100 | [Same Tree](problems/100.Same_Tree) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
-| 101 | [Symmetric Tree](problems/101.Symmetric_Tree) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 101 | [Symmetric Tree](problems/101.Symmetric_Tree) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/101.Symmetric_Tree)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 102 | [Binary Tree Level Order Traversal](problems/102.Binary_Tree_Level_Order_Traversal) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 103 | [Binary Tree Zigzag Level Order Traversal](problems/103.Binary_Tree_Zigzag_Level_Order_Traversal) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/103.Binary_Tree_Zigzag_Level_Order_Traversal)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 104 | [Maximum Depth of Binary Tree](problems/104.Maximum_Depth_of_Binary_Tree) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 105 | [Construct Binary Tree from Preorder and In... ](problems/105.Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/105.Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 106 | [Construct Binary Tree from Inorder and Pos... ](problems/106.Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/106.Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
-| 107 | [Binary Tree Level Order Traversal II](problems/107.Binary_Tree_Level_Order_Traversal_II) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/107.Binary_Tree_Level_Order_Traversal_II)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| 107 | [Binary Tree Level Order Traversal II](problems/107.Binary_Tree_Level_Order_Traversal_II) |  ![](src/done.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/107.Binary_Tree_Level_Order_Traversal_II)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 108 | [Convert Sorted Array to Binary Search Tree](problems/108.Convert_Sorted_Array_to_Binary_Search_Tree) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/108.Convert_Sorted_Array_to_Binary_Search_Tree)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 109 | [Convert Sorted List to Binary Search Tree](problems/109.Convert_Sorted_List_to_Binary_Search_Tree) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/109.Convert_Sorted_List_to_Binary_Search_Tree)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 110 | [Balanced Binary Tree](problems/110.Balanced_Binary_Tree) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 111 | [Minimum Depth of Binary Tree](problems/111.Minimum_Depth_of_Binary_Tree) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 112 | [Path Sum](problems/112.Path_Sum) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 113 | [Path Sum II](problems/113.Path_Sum_II) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
-| 114 | [Flatten Binary Tree to Linked List](problems/114.Flatten_Binary_Tree_to_Linked_List) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/114.Flatten_Binary_Tree_to_Linked_List)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| 114 | [Flatten Binary Tree to Linked List](problems/114.Flatten_Binary_Tree_to_Linked_List) |  ![](src/done.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/114.Flatten_Binary_Tree_to_Linked_List)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 115 | [Distinct Subsequences](problems/115.Distinct_Subsequences) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/115.Distinct_Subsequences)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 116 | [Populating Next Right Pointers in Each Node](problems/116.Populating_Next_Right_Pointers_in_Each_Node) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 117 | [Populating Next Right Pointers in Each Nod... ](problems/117.Populating_Next_Right_Pointers_in_Each_Node_II) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
@@ -154,7 +155,7 @@ Yin has solved 68 problems.
 | 127 | [Word Ladder](problems/127.Word_Ladder) |  ![](src/done.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/127.Word_Ladder)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 128 | [Longest Consecutive Sequence](problems/128.Longest_Consecutive_Sequence) |  ![](src/done.png) | ![](src/done.png) | &nbsp;Coming soon |
 | 129 | [Sum Root to Leaf Numbers](problems/129.Sum_Root_to_Leaf_Numbers) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
-| 130 | [Surrounded Regions](problems/130.Surrounded_Regions) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/130.Surrounded_Regions)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| 130 | [Surrounded Regions](problems/130.Surrounded_Regions) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/130.Surrounded_Regions)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 131 | [Palindrome Partitioning](problems/131.Palindrome_Partitioning) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/131.Palindrome_Partitioning)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 132 | [Palindrome Partitioning II](problems/132.Palindrome_Partitioning_II) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/132.Palindrome_Partitioning_II)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 133 | [Clone Graph](problems/133.Clone_Graph) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
@@ -188,7 +189,7 @@ Yin has solved 68 problems.
 | 161 | [One Edit Distance](problems/161.One_Edit_Distance) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 162 | [Find Peak Element](problems/162.Find_Peak_Element) |  ![](src/done.png) | ![](src/done.png) | &nbsp;Coming soon |
 | 163 | [Missing Ranges](problems/163.Missing_Ranges) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
-| 164 | [Maximum Gap](problems/164.Maximum_Gap) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/164.Maximum_Gap)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| 164 | [Maximum Gap](problems/164.Maximum_Gap) |  ![](src/done.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/164.Maximum_Gap)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 165 | [Compare Version Numbers](problems/165.Compare_Version_Numbers) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 166 | [Fraction to Recurring Decimal](problems/166.Fraction_to_Recurring_Decimal) |  ![](src/done.png) | ![](src/done.png) | &nbsp;Coming soon |
 | 167 | [Two Sum II-Input array is sorted](problems/167.Two_Sum_II-Input_array_is_sorted) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
@@ -203,7 +204,7 @@ Yin has solved 68 problems.
 | 176 | [Second Highest Salary](problems/176.Second_Highest_Salary) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 177 | [Nth Highest Salary](problems/177.Nth_Highest_Salary) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/177.Nth_Highest_Salary)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 178 | [Rank Scores](problems/178.Rank_Scores) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
-| 179 | [Largest Number](problems/179.Largest_Number) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 179 | [Largest Number](problems/179.Largest_Number) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/179.Largest_Number)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 180 | [Consecutive Numbers](problems/180.Consecutive_Numbers) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/180.Consecutive_Numbers)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 181 | [Employees Earning More Than Their Managers](problems/181.Employees_Earning_More_Than_Their_Managers) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 182 | [Duplicate Emails](problems/182.Duplicate_Emails) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
@@ -264,7 +265,7 @@ Yin has solved 68 problems.
 | 238 | [Product of Array Except Self](problems/238.Product_of_Array_Except_Self) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/238.Product_of_Array_Except_Self)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 239 | [Sliding Window Maximum](problems/239.Sliding_Window_Maximum) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/239.Sliding_Window_Maximum)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 240 | [Search a 2D Matrix II](problems/240.Search_a_2D_Matrix_II) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/240.Search_a_2D_Matrix_II)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
-| 241 | [Different Ways to Add Parentheses](problems/241.Different_Ways_to_Add_Parentheses) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/241.Different_Ways_to_Add_Parentheses)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| 241 | [Different Ways to Add Parentheses](problems/241.Different_Ways_to_Add_Parentheses) |  ![](src/yet.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/241.Different_Ways_to_Add_Parentheses)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 242 | [Valid Anagram](problems/242.Valid_Anagram) |  ![](src/done.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/242.Valid_Anagram)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 243 | [Shortest Word Distance](problems/243.Shortest_Word_Distance) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 244 | [Shortest Word Distance II](problems/244.Shortest_Word_Distance_II) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
@@ -360,12 +361,12 @@ Yin has solved 68 problems.
 | 335 | [Self Crossing](problems/335.Self_Crossing) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 336 | [Palindrome Pairs](problems/336.Palindrome_Pairs) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 337 | [House Robber III](problems/337.House_Robber_III) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
-| 338 | [Counting Bits](problems/338.Counting_Bits) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 338 | [Counting Bits](problems/338.Counting_Bits) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/338.Counting_Bits)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 339 | [Nested List Weight Sum](problems/339.Nested_List_Weight_Sum) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 340 | [Longest Substring with At Most K Distinct ... ](problems/340.Longest_Substring_with_At_Most_K_Distinct_Characters) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 341 | [Flatten Nested List Iterator](problems/341.Flatten_Nested_List_Iterator) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 342 | [Power of Four](problems/342.Power_of_Four) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
-| 343 | [Integer Break](problems/343.Integer_Break) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 343 | [Integer Break](problems/343.Integer_Break) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 344 | [Reverse String](problems/344.Reverse_String) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 345 | [Reverse Vowels of a String](problems/345.Reverse_Vowels_of_a_String) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 346 | [Moving Average from Data Stream](problems/346.Moving_Average_from_Data_Stream) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
@@ -387,7 +388,7 @@ Yin has solved 68 problems.
 | 362 | [Design Hit Counter](problems/362.Design_Hit_Counter) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 363 | [Max Sum of Rectangle No Larger Than K](problems/363.Max_Sum_of_Rectangle_No_Larger_Than_K) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 364 | [Nested List Weight Sum II](problems/364.Nested_List_Weight_Sum_II) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
-| 365 | [Water and Jug Problem](problems/365.Water_and_Jug_Problem) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 365 | [Water and Jug Problem](problems/365.Water_and_Jug_Problem) |  ![](src/done.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/365.Water_and_Jug_Problem)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 366 | [Find Leaves of Binary Tree](problems/366.Find_Leaves_of_Binary_Tree) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 367 | [Valid Perfect Square](problems/367.Valid_Perfect_Square) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 368 | [Largest Divisible Subset](problems/368.Largest_Divisible_Subset) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
@@ -438,7 +439,7 @@ Yin has solved 68 problems.
 | 413 | [Arithmetic Slices](problems/413.Arithmetic_Slices) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 414 | [Third Maximum Number](problems/414.Third_Maximum_Number) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 415 | [Add Strings](problems/415.Add_Strings) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
-| 416 | [Partition Equal Subset Sum](problems/416.Partition_Equal_Subset_Sum) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 416 | [Partition Equal Subset Sum](problems/416.Partition_Equal_Subset_Sum) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/416.Partition_Equal_Subset_Sum)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 417 | [Pacific Atlantic Water Flow](problems/417.Pacific_Atlantic_Water_Flow) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 418 | [Sentence Screen Fitting](problems/418.Sentence_Screen_Fitting) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 419 | [Battleships in a Board](problems/419.Battleships_in_a_Board) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
@@ -516,12 +517,10 @@ Yin has solved 68 problems.
 | 506 | [Relative Ranks](problems/506.Relative_Ranks) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 507 | [Perfect Number](problems/507.Perfect_Number) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 508 | [Most Frequent Subtree Sum](problems/508.Most_Frequent_Subtree_Sum) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
-| 513 | [Find Bottom Left Tree Value](problems/513.Find_Bottom_Left_Tree_Value) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
-| 513 | [Find Left Most Element](problems/513.Find_Left_Most_Element) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 513 | [Find Bottom Left Tree Value](problems/513.Find_Bottom_Left_Tree_Value) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/513.Find_Bottom_Left_Tree_Value)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 514 | [Freedom Trail](problems/514.Freedom_Trail) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
-| 515 | [Find Largest Element in Each Row](problems/515.Find_Largest_Element_in_Each_Row) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
-| 515 | [Find Largest Value in Each Tree Row](problems/515.Find_Largest_Value_in_Each_Tree_Row) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
-| 516 | [Longest Palindromic Subsequence](problems/516.Longest_Palindromic_Subsequence) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 515 | [Find Largest Value in Each Tree Row](problems/515.Find_Largest_Value_in_Each_Tree_Row) |  ![](src/done.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/515.Find_Largest_Value_in_Each_Tree_Row)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| 516 | [Longest Palindromic Subsequence](problems/516.Longest_Palindromic_Subsequence) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/516.Longest_Palindromic_Subsequence)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 517 | [Super Washing Machines](problems/517.Super_Washing_Machines) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 520 | [Detect Capital](problems/520.Detect_Capital) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 521 | [Longest Uncommon Subsequence I](problems/521.Longest_Uncommon_Subsequence_I) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
@@ -538,13 +537,31 @@ Yin has solved 68 problems.
 | 533 | [Lonely Pixel II](problems/533.Lonely_Pixel_II) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 535 | [Encode and Decode TinyURL](problems/535.Encode_and_Decode_TinyURL) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 536 | [Construct Binary Tree from String](problems/536.Construct_Binary_Tree_from_String) |  ![](src/yet.png) | ![](src/yet.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/536.Construct_Binary_Tree_from_String)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
-| 537 | [Complex Numbe Multiplication](problems/537.Complex_Numbe_Multiplication) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 537 | [Complex Number Multiplication](problems/537.Complex_Number_Multiplication) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 538 | [Convert BST to Greater Tree](problems/538.Convert_BST_to_Greater_Tree) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 539 | [Minimum Time Difference](problems/539.Minimum_Time_Difference) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 541 | [Reverse String II](problems/541.Reverse_String_II) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
-| 542 | [01 Matrix](problems/542.01_Matrix) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 542 | [01 Matrix](problems/542.01_Matrix) |  ![](src/done.png) | ![](src/done.png) |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notes](/problems/542.01_Matrix)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 | 543 | [Diameter of Binary Tree](problems/543.Diameter_of_Binary_Tree) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 544 | [Output Contest Matches](problems/544.Output_Contest_Matches) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 545 | [Boundary of Binary Tree](problems/545.Boundary_of_Binary_Tree) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 546 | [Remove Boxes](problems/546.Remove_Boxes) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 547 | [Friend Circles](problems/547.Friend_Circles) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
 | 548 | [Split Array with Equal Sum](problems/548.Split_Array_with_Equal_Sum) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
-| 548 | [ Split Array with Equal Sum](problems/548._Split_Array_with_Equal_Sum) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 549 | [Binary Tree Longest Consecutive Sequence II](problems/549.Binary_Tree_Longest_Consecutive_Sequence_II) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 551 | [Student Attendance Record I](problems/551.Student_Attendance_Record_I) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 552 | [Student Attendance Record II](problems/552.Student_Attendance_Record_II) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 553 | [Optimal Division](problems/553.Optimal_Division) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 554 | [Brick Wall](problems/554.Brick_Wall) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 555 | [Split Assembled Strings](problems/555.Split_Assembled_Strings) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 555 | [Split Concatenated Strings](problems/555.Split_Concatenated_Strings) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 556 | [Next Greater Element III](problems/556.Next_Greater_Element_III) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 557 | [Reverse Words in a String III](problems/557.Reverse_Words_in_a_String_III) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 560 | [Subarray Sum Equals K](problems/560.Subarray_Sum_Equals_K) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 561 | [Array Partition I](problems/561.Array_Partition_I) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 562 | [Longest Line of Consecutive One in Matrix](problems/562.Longest_Line_of_Consecutive_One_in_Matrix) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 563 | [Binary Tree Tilt](problems/563.Binary_Tree_Tilt) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 564 | [Find the Closest Palindrome](problems/564.Find_the_Closest_Palindrome) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 566 | [Reshape the Matrix](problems/566.Reshape_the_Matrix) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 567 | [Permutation in String](problems/567.Permutation_in_String) |  ![](src/done.png) | ![](src/yet.png) | &nbsp;Coming soon |
+| 568 | [Maximum Vacation Days](problems/568.Maximum_Vacation_Days) |  ![](src/yet.png) | ![](src/yet.png) | &nbsp;Coming soon |
