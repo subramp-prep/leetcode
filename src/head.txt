@@ -5,14 +5,14 @@ LeetCode题解
 ![](https://img.shields.io/badge/Language-%20Python/C++/Java%20-blue.svg)
 
 
-###To User:
+### To User:
 1. 你可以在上方选择Fork，复制项目到自己空间。
 2. 你也可以在右上角点击Star点赞。
 3. 欢迎打赏
+
 ![](src/dashang.jpeg)
 
-
-###To contributor:
+### To contributor:
 1. 题目的commit，请标清Add或者Upddate，例如: Add Q1. Two Sum.
 以方便在git history中回看查找最近做的题。
 2. 请使用个人标识，作为文件命名前缀，例如: li.py。
