@@ -14,7 +14,8 @@ struct Node {
     // constructor, destructor
     Node(int x) : val(x), occur(1), leftCnt(0), left(0), right(0){ }
     ~Node() { delete left; left = 0; delete right; right = 0; }
-    
+	// count
+    int count() { return occur + leftCnt + (right ? right->count() : 0); }
     // insert
     int insert(int x) {
         if (x == val) {
@@ -75,7 +76,7 @@ Node *BST::rr_rotation(Node *n) {
 	n->left = temp->right;
 	// change leftCnt
 	if (temp->right) 
-	    n->leftCnt = temp->right->leftCnt + temp->right->occur;
+	    n->leftCnt = temp->right->count();
 	else n->leftCnt = 0;
 	temp->right = n;
 	return temp;
