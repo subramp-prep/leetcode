@@ -96,7 +96,7 @@ Node *BST::rl_rotation(Node *n) {
 Node *BST::lr_rotation(Node *n) {
 	Node *temp = ll_rotation(n->left);
 	n->left = temp;
-	n->left->leftCnt = temp->leftCnt + temp->occur; // change leftCnt
+	n->leftCnt = temp->leftCnt + temp->occur; // change leftCnt
 	return rr_rotation(n);
 }
 
