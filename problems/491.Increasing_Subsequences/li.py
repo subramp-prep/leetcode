@@ -8,21 +8,26 @@ import itertools
 
 class Solution(object):
 
-  def findSubsequences(self, nums):
-    """
-    :type nums: List[int]
-    :rtype: List[List[int]]
-    """
-    ret = []
-    for i in range(2, len(nums) + 1):
-      ret += list(set(itertools.combinations(nums, i)))
-    return [x for x in ret if self.isIncreasing(x)]
+    def findSubsequences(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[List[int]]
+        """
+        ret = []
+        for i in range(2, len(nums) + 1):
+            ret += list(set(itertools.combinations(nums, i)))
 
-  def isIncreasing(self, l):
-    for i in range(1, len(l)):
-      if l[i - 1] > l[i]:
-        return False
-    return True
+        def isIncreasing(l):
+            for i in range(1, len(l)):
+                if l[i - 1] > l[i]:
+                    return False
+            return True
+        return [x for x in ret if isIncreasing(x)]
+
+    def findSubsequences(self, nums):
+        ret = [l for i in range(2, len(nums) + 1) for l in set(itertools.combinations(nums, i))]
+        return [l for l in ret if all(l[i - 1] <= l[i] for i in range(1, len(l)))]
+
 
 ############### test cases ###################
 s = Solution()
