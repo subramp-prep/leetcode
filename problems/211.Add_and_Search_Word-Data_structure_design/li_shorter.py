@@ -1,6 +1,6 @@
 # coding=utf-8
 # Author: Jianghan LI
-# Question: /Users/Jianghan/MyWork/LeetCode/problems/211.Add_and_Search_Word-Data_structure_design/li_shorter.py
+# Question: 211.Add_and_Search_Word-Data_structure_design/li_shorter.py
 # Date: 2017-06-02
 
 
