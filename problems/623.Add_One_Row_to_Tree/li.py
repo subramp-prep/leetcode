@@ -34,14 +34,14 @@ class Solution(object):
 
     # better
     def addOneRow(self, root, v, d):
-        ret, ret.left = TreeNode(v), root
-        row = [ret]
+        dummy, dummy.left = TreeNode(v), root
+        row = [dummy]
         for _ in range(d - 1):
             row = [i for node in row for i in (node.left, node.right) if i]
         for i in row:
             i.left, i.left.left = TreeNode(v), i.left
             i.right, i.right.right = TreeNode(v), i.right
-        return ret.left
+        return dummy.left
 
 # wrong try 1: nodes takes not None.
 # wrong try 2: test case d = 1
