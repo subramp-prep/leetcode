@@ -23,4 +23,5 @@ s = Solution()
 print s.findDerangement(16)
 
 ############ comments ############
+# Discuss: https://discuss.leetcode.com/topic/94772/python-concise-solution
 # wrong try :TLE, %mod for each loop, instead of only at the end

@@ -15,26 +15,26 @@
 class Solution(object):
 
     def getMinimumDifference(self, root):
-        def bfs(node, l=[]):
+        def dfs(node, l=[]):
             if node.left:
-                bfs(node.left, l)
+                dfs(node.left, l)
             l.append(node.val)
             if node.right:
-                bfs(node.right, l)
+                dfs(node.right, l)
             return l
-        l = bfs(root)
+        l = dfs(root)
         return min([abs(a - b) for a, b in zip(l, l[1:])])
 
     def getMinimumDifference(self, root):
         l = []
 
-        def bfs(node):
+        def dfs(node):
             if node.left:
-                bfs(node.left)
+                dfs(node.left)
             l.append(node.val)
             if node.right:
-                bfs(node.right)
-        bfs(root)
+                dfs(node.right)
+        dfs(root)
         return min(abs(a - b) for a, b in zip(l, l[1:]))
 
 # https://discuss.leetcode.com/topic/81017/python-7-lines-ac-solution-with-comments

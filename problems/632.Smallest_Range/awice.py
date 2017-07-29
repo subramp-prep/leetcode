@@ -21,7 +21,7 @@ class Solution(object):
         return ans
 
     # li, not reverse A
-    def smallestRange2(self, A):
+    def smallestRange(self, A):
         ans = -1e9, 1e9
         for right in sorted(set(x for l in A for x in l))[::-1]:
             for B in A:
@@ -30,7 +30,7 @@ class Solution(object):
                 if not B:
                     return ans
             left = min(B[-1] for B in A)
-            if right - left < ans[1] - ans[0]:
+            if right - left <= ans[1] - ans[0]:
                 ans = left, right
         return ans
 
@@ -46,7 +46,7 @@ class Solution(object):
                 if pos[i] == len(A[i]):
                     return ans
             right = max(A[i][pos[i]] for i in range(k))
-            if right - left < ans[1] - ans[0]:
+            if right - left <= ans[1] - ans[0]:
                 ans = left, right
         return ans
 

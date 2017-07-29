@@ -56,4 +56,5 @@ for i in range(1, len(inputs)):
     print eval("s." + operations[i])(*inputs[i])
 
 ############ comments ############
+# Discuss: https://discuss.leetcode.com/topic/94774/python-easy-understand-solution
 # Wrong try: for gra == "Second", s <= t <= e insted of just s < t < e

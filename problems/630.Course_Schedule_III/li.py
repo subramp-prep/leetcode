@@ -14,14 +14,20 @@ class Solution(object):
         :type courses: List[List[int]]
         :rtype: int
         """
-        courses.sort(key=lambda x: x[1])
         take = []
         time = 0
-        for t, d in courses:
+        for t, d in sorted(courses, key=lambda x: x[1]):
             time += t
             heapq.heappush(take, (-t, t))
             if time > d:
                 time -= heapq.heappop(take)[1]
+        return len(take)
+
+    # shorter
+    def scheduleCourse(self, courses):
+        take, time = [], 0
+        for t, d in sorted(courses, key=lambda x: x[1]):
+            time += heapq.heappush(take, (-t, t)) or t - (t + time > d and heapq.heappop(take)[1])
         return len(take)
 
 ############ test case ###########
