@@ -66,12 +66,23 @@ class Solution(object):
 s = Solution()
 # print s.kInversePairs(8, 5)
 # print s.kInversePairs(1, 1)
-print s.kInversePairs(1000, 1000)
+print s.kInversePairs(100, 100)
 
-for i in range(10):
-    for j in range(i * (i - 1) / 2 + 1):
-        print "%3d" % s.kInversePairs(i, j),
-    print
+# for i in range(10):
+#     for j in range(i * (i - 1) / 2 + 1):
+#         print "%3d" % s.kInversePairs(i, j),
+#     print
 
 ############ comments ############
 # RuntimeError: maximum recursion depth exceeded
+
+# 我的思路是 对于任何一个1到n-1的排列。
+# 考虑插入第n个数的情况，因为n是当前最大的数，逆序对增加个数只和插入的位置有关。
+# n放在最前面，也就是第1个位置，逆序对增加n-1。
+# n放在最后，也第n个位置，逆序对增加0。
+# 由此得到逆序对关于n，k的递推公式：
+# f(n,k) = f(n-1,k-n+1) + ... + f(n-1,k)
+# f(0,k) = 0
+# f(n,0) = 1
+
+# 有了递推公式，可以用动态规划的思路实现就行了

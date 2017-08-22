@@ -15,7 +15,7 @@ class Excel(object):
         :type H: int
         :type W: str
         """
-        self.M = [[{'v': 0, 'sum': None} for i in range(H)] for j in range(ord(W) - 64)]
+        self.M = [[{'v': 0, 'sum': None} for j in range(ord(W) - 64)] for i in range(H)]
 
     def set(self, r, c, v):
         """

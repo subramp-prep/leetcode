@@ -25,6 +25,7 @@ class Solution(object):
             for j in low:
                 res = max(res, i ^ j)
         return res
+
 ############ test case ###########
 s = Solution()
 nums = [4, 6, 7]

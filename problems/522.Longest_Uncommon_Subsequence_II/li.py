@@ -13,15 +13,22 @@ class Solution(object):
         :type strs: List[str]
         :rtype: int
         """
+
         c = collections.Counter(strs)
 
         def isSub(s1, s2):
-            it = iter(s1)
-            return len(s1) >= len(s2) and all(i in it for i in s2)
-        for s2 in sorted([str for str in c if c[str] == 1], key=len, reverse=True):
-            if sum(map(lambda s1: isSub(s1, s2), strs)) == 1:
-                return len(s2)
+            it = iter(s2)
+            return all(i in it for i in s1)
+
+        for s1 in sorted([str for str in c if c[str] == 1], key=len, reverse=True):
+            if sum(isSub(s1, s2) for s2 in strs) == 1:
+                return len(s1)
         return -1
+
+    def findLUSlength(self, strs):
+        return max([len(s1) for s1 in strs
+                    if sum(all(c in it for c in s1) for it in map(iter, strs)) == 1]
+                   or [-1])
 
 
 ############ test case ###########

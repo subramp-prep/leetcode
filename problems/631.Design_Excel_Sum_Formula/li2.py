@@ -9,7 +9,7 @@ import collections
 class Excel(object):
 
     def __init__(self, H, W):
-        self.M = [[{'v': 0, 'sum': None} for i in range(H)] for j in range(ord(W) - 64)]
+        self.M = [[{'v': 0, 'sum': None} for j in range(ord(W) - 64)] for i in range(H)]
 
     def set(self, r, c, v):
         self.M[r - 1][ord(c) - 65] = {'v': v, 'sum': None}
