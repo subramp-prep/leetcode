@@ -2,7 +2,7 @@
 # Author: Jianghan LI
 # Question: 373.Find_K_Pairs_with_Smallest_Sums/li.py
 # Date: 03/03/2017 00:47
-# Complexity: O(N) O(N)
+# Complexity: O(K^2logK) O(K)
 
 import itertools
 import heapq
@@ -18,6 +18,9 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         return heapq.nsmallest(k, itertools.product(nums1, nums2), key=sum)
+
+    def kSmallestPairs(self, nums1, nums2, k):
+        return heapq.nsmallest(k, itertools.product(nums1[:k], nums2[:k]), key=sum)
 
 
 ############ test case ###########

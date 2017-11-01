@@ -5,6 +5,7 @@
 # Date: 2017-09-17
 # Contest50 0:23:34 － 0:37:28, 1 wrong try
 
+
 class Solution(object):
 
     def validPalindrome(self, s):
@@ -23,7 +24,8 @@ class Solution(object):
 
     def validPalindrome(self, s):
         i = 0
-        while i < len(s) / 2 and s[i] == s[-(i + 1)]: i += 1
+        while i < len(s) / 2 and s[i] == s[~i]:
+            i += 1
         s = s[i:len(s) - i]
         return s[1:] == s[1:][::-1] or s[:-1] == s[:-1][::-1]
 

@@ -1,14 +1,16 @@
 class Solution(object):
 
-  def findDuplicates2(self, nums):
-    """
-    :type nums: List[int]
-    :rtype: List[int]
-    """
-    n = len(nums)
-    for x in nums:
-      nums[x % n] += n
-    return filter(lambda x: (nums[x % n] - 1) / n == 2, range(1, n + 1))
+    def findDuplicates2(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        n = len(nums)
+        for x in nums:
+            nums[x % n] += n
+        return filter(lambda x: (nums[x % n] - 1) / n == 2, range(1, n + 1))
+
+
 s = Solution()
 print s.findDuplicates([4, 3, 2, 7, 8, 2, 3, 1])
 print s.findDuplicates([2, 2])
