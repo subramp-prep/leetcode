@@ -10,8 +10,8 @@ public:
             rowSwap += b[i][0] == i % 2;
             colSwap += b[0][i] == i % 2;
         }
-        if (N / 2 > rowSum || rowSum > N / 2 + N % 2) return -1;
-        if (N / 2 > colSum || colSum > N / 2 + N % 2) return -1;
+        if (N / 2 > rowSum || rowSum > (N + 1) / 2) return -1;
+        if (N / 2 > colSum || colSum > (N + 1) / 2) return -1;
         if (N % 2) {
             if (colSwap % 2) colSwap = N - colSwap;
             if (rowSwap % 2) rowSwap = N - rowSwap;
