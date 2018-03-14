@@ -1,38 +1,21 @@
 # coding=utf-8
 # Author: Jianghan LI
 # Question: 787.Cheapest_Flights_Within_K_Stops
-# Complexity: O(K)
-# Date: 2018-02-26
-
-
-import collections
-import heapq
+# Complexity: O(KF)
+# Date: 2018-03-12
 
 
 class Solution(object):
 
     def findCheapestPrice(self, n, flights, src, dst, k):
-        """
-        :type n: int
-        :type flights: List[List[int]]
-        :type src: int
-        :type dst: int
-        :type K: int
-        :rtype: int
-        """
-
-        f = collections.defaultdict(dict)
-        for a, b, p in flights:
-            f[a][b] = p
-        heap = [(0, src, k + 1)]
-        while heap:
-            p, i, k = heapq.heappop(heap)
-            if i == dst:
-                return p
-            if k > 0:
-                for j in f[i]:
-                    heapq.heappush(heap, (p + f[i][j], j, k - 1))
-        return -1
+        price = [float('inf')] * n
+        price[src] = 0
+        for _ in range(k + 1):
+            price2 = price[:]
+            for i, j, p in flights:
+                price2[j] = min(price2[j], price[i] + p)
+            price = price2
+        return price[dst] if price[dst] < float('inf') else -1
 
 
 ############ test case ###########
@@ -174,14 +157,3 @@ print s.findCheapestPrice(n, edges, src, dst, k)
 
 
 ############ comments ############
-# f = collections.defaultdict(dict)
-# for a, b, p in flights:
-#     f[a][b] = p
-
-# or
-
-# f = {}
-# for a, b, p in flights:
-#     f.setdefault(a, {})[b] = p
-
-# https://leetcode.com/problems/cheapest-flights-within-k-stops/discuss/115541/Easy-and-Concise-Solution-Using-Priority-Queue
