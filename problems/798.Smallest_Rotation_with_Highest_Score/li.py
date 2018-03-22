@@ -50,17 +50,6 @@ class Solution(object):
             change[i] += change[i - 1]
         return change.index(max(change))
 
-    def bestRotation(self, A):
-        N = len(A)
-        change = collections.Counter((i - A[i] + 1) % N for i in range(N))
-        best = score = res = 0
-        for i in range(1, N):
-            score -= change[i] - 1
-            if best < score:
-                best = score
-                res = i
-        return res
-
 ############ test case ###########
 s = Solution()
 print s.bestRotation([2, 3, 1, 4, 0])  # 3

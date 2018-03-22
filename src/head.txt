@@ -22,5 +22,5 @@ solution前缀答案来自top solution。AC前缀的答案转载自[illuz](iillu
 
 <statistics>
 
-| No.| Problem | Han | Yin | Note |
-|----|---------|-----|-----|------|
+| No.| Problem | Han | Note |
+|----|---------|-----|------|
