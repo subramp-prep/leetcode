@@ -1,8 +1,8 @@
 ## 200. Number of Islands (Medium)
 
 ### **链接**：
-题目：https://leetcode.com/problems/number-of-islands/  
-代码(github)：https://github.com/JianghanLi/LeetCode
+题目：https://leetcode.com/problems/number-of-islands/
+代码(github)：https://github.com/JianghanLi/LeetCode/200.Number_of_Islands
 
 ### **题意**：
 
@@ -10,5 +10,6 @@
 
 ### **分析**：
 
-直接 BFS 就行了。  
+直接 BFS 就行了。
 当然 DFS 也可以，这题没太大数据会卡 DFS。
+UF方法也可以做
