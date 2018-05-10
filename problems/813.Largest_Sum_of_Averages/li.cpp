@@ -14,6 +14,7 @@ public:
 
     double search(int n, int k, vector<int>& A) {
         if (memo[n][k] > 0) return memo[n][k];
+        if (n < k) return 0; // 14ms to 10ms
         double cur = 0;
         for (int i = n - 1; i > 0; --i) {
             cur += A[i];

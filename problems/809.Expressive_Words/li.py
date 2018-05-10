@@ -54,16 +54,20 @@ class Solution(object):
             while i < n and j < m:
                 while i < n and j < m and S[i] == W[j]:
                     i, j = i + 1, j + 1
+                if i == n and j == m:
+                    return True
                 while i > 0 and i < n and S[i] == S[i - 1]:
                     i += 1
                 if i < 3 or S[i - 1] != S[i - 2] or S[i - 2] != S[i - 3]:
-                    break
+                    return False
             return i == n and j == m
         return sum(check(S, W) for W in words)
 
 ############ test case ###########
 s = Solution()
 print s.expressiveWords(S="heeellooo", words=["hello", "hi", "helo"])
+print s.expressiveWords(S="hee", words=["he"])
+print s.expressiveWords(S="aaa", words=["aaaa"])
 
 
 ############ comments ############

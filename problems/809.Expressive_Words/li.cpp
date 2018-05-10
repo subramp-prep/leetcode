@@ -10,8 +10,9 @@ public:
         int i = 0, j = 0, n = S.size(), m = W.size();
         while (i < n && j < m) {
             while (i < n && j < m && S[i] == W[j]) {i++; j++;}
+            if (i == n && j == m) return true;
             while (i > 0 && i < n && S[i] == S[i - 1]) i++;
-            if (i < 3 || S[i - 1] != S[i - 2] || S[i - 2] != S[i - 3]) break;
+            if (i < 3 || S[i - 1] != S[i - 2] || S[i - 2] != S[i - 3]) return false;
         }
         return i == n && j == m;
     }

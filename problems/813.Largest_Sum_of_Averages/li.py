@@ -16,7 +16,10 @@ class Solution(object):
         memo = {}
 
         def search(n, k):
-            if (n, k) in memo: return memo[n, k]
+            if (n, k) in memo:
+                return memo[n, k]
+            if n < k:
+                return 0
             if k == 1:
                 memo[n, k] = sum(A[:n]) / float(n)
                 return memo[n, k]

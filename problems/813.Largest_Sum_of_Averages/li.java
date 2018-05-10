@@ -12,6 +12,7 @@ class Solution {
 
     public double search(int n, int k, int[] A, double[][] memo) {
         if (memo[n][k] > 0) return memo[n][k];
+        if (n < k) return 0;
         double cur = 0;
         for (int i = n - 1; i > 0; --i) {
             cur += A[i];
